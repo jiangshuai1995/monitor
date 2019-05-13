@@ -1,0 +1,10 @@
+{
+
+  "db_user": "gpadmin",
+  "db_pass": "123456",
+  "db_host": "192.168.251.230",
+  "db_port": "6432",
+  "db_name": "gpperfmon",
+
+  "port": "8080"
+}
