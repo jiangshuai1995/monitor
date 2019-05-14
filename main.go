@@ -15,7 +15,6 @@ func main(){
 	conf:="conf"
 	initialization.SetConfig(conf)
 	initialization.SetDB()
-	app:= iris.New()
 	app.Use(middlewares.Crs())
 	app.Get("/version",Versionhandler)
 	app.Get("/log",Loghandler)
